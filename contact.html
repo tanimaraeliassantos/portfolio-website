@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="icon" href="img/icons8-laptop-coding-64.png" type="image"/>
 </head>
 
@@ -40,19 +40,28 @@
 
     <main>
         <h1> Contact</h1>
-        <form action="" method="post">
-            <label class="standard-label" for="contact-email">E-mail:</label>
-            <input type="email" id="contact-email" required>
-
-            <label class="standard-label" for="contact-telephone"> Telephone: (Use XXX-XXX-XXXX format)</label>
-            <input type="tel" id="contact-telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
-
-            <label class="standard-label" for="contact-message"> Message:</label>
-            <textarea maxlength="240" id="contact-message" required></textarea>
-            
-            <label class="standard-label" for="contact-submit"></label>
-            <input type="submit" id="contact-submit" value="Send message">
-        </form>
+        <div class= "contact-form">
+            <form action="" method="post">
+                <div class="contact-form__item">
+                    <label class="contact-form__label" for="contact-email">E-mail:</label>
+                    <br>
+                    <input type="email" id="contact-email" required>
+                </div>
+                <div class="contact-form__item">
+                    <label class="contact-form__label" for="contact-telephone"> Telephone: (Use XXX-XXX-XXXX format)</label>
+                    <br>
+                    <input type="tel" id="contact-telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+                </div>
+                <div class="contact-form__item">
+                    <label class="contact-form__label" for="contact-message"> Message:</label>
+                    <br>
+                    <textarea maxlength="240" id="contact-message" required></textarea> 
+                    <br>          
+                    <label class="contact-form__label" for="contact-submit"></label>
+                    <input type="submit" id="contact-submit" value="Send message">
+                </div>
+            </form>
+        </div>
     </main>
 
     <div>
@@ -61,8 +70,7 @@
         Australia<br>
         <br>
         <a href="tel:+61481371141">Tel +61 481 371 141</a><br>
-        <a href="skype: Tanimara Elias Santos">Skype Tanimara Elias Santos</a><br>
-        <a href="mailto: tanimarasantos@hotmail.com">tanimarasantos@hotmail.com</a>
+        <a href="mailto: tanimarasantos@hotmail.com">tanimarasantos@hotmail.com</a><br>
         <a href="mailto: tanimarasantos@hotmail.com"> Contact me</a>
     </div>
 
