@@ -39,15 +39,19 @@
     <hr>
 
     <main>
-        <h1>
-            Ready for your next project? You can reach me via email at 
-            <a href="mailto:tanimarasantos@hotmail.com"><span class="highlight">tanimarasantos@hotmail.com
-            </a></span> or fill the form below.
-                <br>
-                <p>I'm also on linkedin</p>
-        </h1>
+        <div class="contact-body">
+            <h1>
+                Ready for your next project? You can reach me
+                via email at 
+                <a href="mailto:tanimarasantos@hotmail.com"><span class="highlight">tanimarasantos@hotmail.com
+                </a></span> or fill the form below.
+                    <p>I'm also on <a href= "https://www.linkedin.com/in/tanimara-e-29495838/">
+                        linkedin
+                    </a></p>
+            </h1>
+        </div>  
         <div>
-            <form action="contact_form.php" class= "contact-form" method="post">
+            <form action="contact_form.php" class= "contact-form" method="post" autocomplete="on">
                 <div class="contact-form__item">
                     <input type="text" id="contact-name" name="name" placeholder="Name" required>
                 </div>
@@ -58,18 +62,13 @@
                     <input type="tel" id="contact-telephone" name="telephone" placeholder="Telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
                 </div>
                 <div class="contact-form__item">
-                    <textarea maxlength="240" id="contact-message" name="message" placeholder="Message" required></textarea> 
+                    <textarea id="contact-message" name="message" placeholder="Message" required></textarea> 
                     <br>          
-                    <input type="submit" id="contact-submit" value="Send message">
+                    <input type="submit" id="contact-submit" value="Send">
                 </div>
             </form>
         </div>
     </main>
-
-    <div>
-        <a href="tel:+61481371141">Tel +61 481 371 141</a><br>
-        <a href="mailto:tanimarasantos@hotmail.com">tanimarasantos@hotmail.com</a>
-    </div>
 
     <footer class="page-footer">
         <p>Find me on</p>
