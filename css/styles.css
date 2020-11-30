@@ -66,6 +66,7 @@ h2 {
 
 a {
 	color: var(--dark-grey);
+	text-decoration: none;
 }
 
 a:visited {
@@ -100,6 +101,12 @@ a:active {
 .button:focus {
 	cursor: pointer;
 	opacity: 0.8;
+}
+
+span.highlight {
+	color: var(--accent-color);
+	font-weight: bold;
+	text-decoration: none;
 }
 
 .page-footer {
