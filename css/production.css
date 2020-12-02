@@ -52,6 +52,7 @@ h2 {
 	font-size: 20px;
 	font-weight: 500;
 	line-height: 1.8;
+	color: #494949;
 }
 
 .nav-list {
@@ -79,14 +80,16 @@ a:active {
 .button {
 	border: 1px solid #ECE8D9;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	float: left;
 	width: 25%;
 	font-family: inherit;
-	font-weight: inherit;
+	font-weight: bold;
 	background-color: #FFFDF6;
 	color: #494949;
 	text-decoration: none;
+	-webkit-box-align: baseline;
+	    -ms-flex-align: baseline;
+	        align-items: baseline;
 	padding: 10px;
 	border-radius: 4%;
 	-webkit-transition: 0.5s opacity;
@@ -166,16 +169,26 @@ span.highlight {
 	        flex-grow: 1;
 	text-align: right;
 }
+#about-main__me {
+	width: 50%;
+	margin: 10px;
+	text-align: justify;
+}
 
 .about-main {
 	display: inline-block;
-	width: 100%;
-	margin: auto;
-	text-align: center;
+	width: auto;
+	padding: 10px;
+	text-align: left;
+	
 }
 
 .about-main__item {
 	display: inline-block;
+	width: 100%;
+	padding: 10px;
+	background-color: #FAF6E9;
+	border: 1px solid #ECE8D9;
 }
 
 .navigation-list,
@@ -212,15 +225,19 @@ span.highlight {
         -ms-grid-columns: 1fr 10px 1fr 10px 1fr;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 10px;
-        margin: 0;
+		margin: 0;
+		padding: 10px;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
     }
 }
 
 .project-list__item {
-	background-color: #ECE8D9;
+	background-color: #FAF6E9;
 	width: auto;
 	min-height: auto;
 	margin: 0;
+	padding: 10px;
 }
 
 .project-list__item:last-child {
@@ -245,28 +262,32 @@ span.highlight {
 		display: grid;
 		gap: 10px;
 		margin: 10px 15px 10px;
-		border: none;
+		border: 1px solid #ECE8D9;
 		padding: 10px;
 		width: auto;
-		background-color: #ECE8D9;
+		background-color: #FAF6E9;
 	}
 }
+
 .contact-body {
 	display: block;
-	width: 50%;
+	width: 40%;
 	margin: 5px 15px;
+	text-align: justify;
 }
 
 textarea {
-	width: 30%;
+	width: 40%;
 	border: none;
-	border-style: inset;
+	border-style: bottom;
+	border-radius: 2%;
 }
 
 input {
-	width: 30%;
+	width: 40%;
 	border: none;
-	border-style: inset;
+	border-style: bottom;
+	border-radius: 2%;
 }
 
 #contact-submit,
