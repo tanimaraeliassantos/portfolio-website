@@ -201,18 +201,7 @@ span.highlight {
 }
 
 /* start grid fallback */
-.project-list {
-	display: flex;
-	flex-wrap: wrap;
-}
-.project-list__item1 {width: 33.33%;}
-.project-list__item2 {width: 66.66%;}
-.project-list__item3 {width: 99.99%;}
 
-.project-list__item {
-	height: 200px;
-	box-shadow: 1px 1px #494949;
-}
 /* end grid fallback */
 
 @supports (display: grid) {
@@ -226,7 +215,7 @@ span.highlight {
     }
 }
 
-[class*="project-list__item-"] {
+.project-list__item {
 	background-color: var(--primary-color);
 	width: auto;
 	min-height: auto;
