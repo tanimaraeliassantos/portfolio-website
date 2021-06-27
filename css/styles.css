@@ -232,7 +232,7 @@ span.highlight {
 	border: 1px solid #ece8d9;
 	display: block;
 	float: left;
-	width: 25%;
+	width: 15rem;
 	font-family: inherit;
 	font-weight: bold;
 	background-color: var(--background-color);
@@ -248,7 +248,7 @@ span.highlight {
 	border: 1px solid #ece8d9;
 	display: block;
 	float: left;
-	width: 25%;
+	width: 15rem;
 	font-family: inherit;
 	font-weight: bold;
 	background-color: var(--background-color);
