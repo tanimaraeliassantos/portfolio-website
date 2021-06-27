@@ -260,6 +260,22 @@ span.highlight {
 	transition: 0.5s opacity;
 }
 
+.contact-me__button {
+	border: 1px solid #ece8d9;
+	display: block;
+	float: left;
+	width: 30rem;
+	font-family: inherit;
+	font-weight: bold;
+	background-color: var(--background-color);
+	color: var(--dark-grey);
+	text-decoration: none;
+	justify-items: center;
+	padding: 10px;
+	border-radius: 4%;
+	transition: 0.5s opacity;
+}
+
 /* start grid fallback */
 
 .contact-form {
