@@ -231,14 +231,15 @@ span.highlight {
 .project-sourcecode__button {
 	border: 1px solid #ece8d9;
 	display: block;
-	float: left;
-	width: 15rem;
+	position: static;
+	width: 30rem;
 	font-family: inherit;
 	font-weight: bold;
 	background-color: var(--background-color);
 	color: var(--dark-grey);
 	text-decoration: none;
 	align-items: baseline;
+	justify-items: center;
 	padding: 10px;
 	border-radius: 4%;
 	transition: 0.5s opacity;
