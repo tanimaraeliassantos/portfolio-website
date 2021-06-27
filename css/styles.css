@@ -10,11 +10,11 @@ Active link (dark olive green): #556B2F;
 */
 :root {
 	--primary-color: #ffffff;
-	--secondary-color: #edf6ff;
-	--background-color: #fffdf6;
-	--highlight-color: #6daffe;
-	--accent-color: #437fc7;
-	--dark-grey: #b9732f;
+	--secondary-color: #6daffe;
+	--background-color: #edf6ff;
+	--highlight-color: #437fc7;
+	--accent-color: #b9732f;
+	--dark-grey: #494949;
 	--font-family-title: 'Montserrat', sans-serif;
 	--font-family-body: 'Open Sans', sans-serif;
 	--font-weight-body: 300;
