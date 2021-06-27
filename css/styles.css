@@ -244,6 +244,22 @@ span.highlight {
 	transition: 0.5s opacity;
 }
 
+.project-live__button {
+	border: 1px solid #ece8d9;
+	display: block;
+	float: left;
+	width: 25%;
+	font-family: inherit;
+	font-weight: bold;
+	background-color: var(--background-color);
+	color: var(--dark-grey);
+	text-decoration: none;
+	align-items: baseline;
+	padding: 10px;
+	border-radius: 4%;
+	transition: 0.5s opacity;
+}
+
 /* start grid fallback */
 
 .contact-form {
