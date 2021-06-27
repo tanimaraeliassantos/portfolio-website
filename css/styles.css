@@ -9,12 +9,12 @@ Visited link (dark golden rod): #B8860B;
 Active link (dark olive green): #556B2F;
 */
 :root {
-	--primary-color: #faf6e9;
-	--secondary-color: #ece8d9;
+	--primary-color: #ffffff;
+	--secondary-color: #edf6ff;
 	--background-color: #fffdf6;
-	--highlight-color: #b8860b;
-	--accent-color: #556b2f;
-	--dark-grey: #494949;
+	--highlight-color: #6daffe;
+	--accent-color: #437fc7;
+	--dark-grey: #b9732f;
 	--font-family-title: 'Montserrat', sans-serif;
 	--font-family-body: 'Open Sans', sans-serif;
 	--font-weight-body: 300;
