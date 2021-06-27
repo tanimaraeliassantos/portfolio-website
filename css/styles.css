@@ -145,6 +145,7 @@ span.highlight {
 
 .page-header__item {
 	flex: 1 1 200px;
+	color: var(--secondary-color);
 }
 
 #page-header__logo {

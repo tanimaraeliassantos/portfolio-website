@@ -5,16 +5,6 @@
 * Browsers: last 4 version
 */
 
-/*
-Color palette
-
-Primary color(medium beige): #FAF6E9;
-Secondary color (dark beige): #ECE8D9;
-Background color (light beige): #FFFDF6;
-Text color (dark grey): #494949;
-Visited link (dark golden rod): #B8860B;
-Active link (dark olive green): #556B2F;
-*/
 :root {
 	--primary-color: #edf6ff;
 	--secondary-color: #6daffe;
@@ -166,6 +156,7 @@ span.highlight {
 	-webkit-box-flex: 1;
 	-ms-flex: 1 1 200px;
 	flex: 1 1 200px;
+	color: var(--secondary-color);
 }
 
 #page-header__logo {
